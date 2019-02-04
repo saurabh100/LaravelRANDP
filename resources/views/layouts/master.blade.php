@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Laravel ACL</title>
     <link rel="stylesheet" href="{{ URL::to('src/css/main.css') }}">
+    <link rel="stylesheet" href="{{ URL::to('src/css/bootstrap.min.css') }}">
 </head>
 <body>
 @include('partials.header')

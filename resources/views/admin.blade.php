@@ -1,14 +1,14 @@
 @extends('layouts.master')
 
 @section('content')
-    <table>
-        <thead>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>E-Mail</th>
-        <th>User</th>
-        <th>Author</th>
-        <th>Admin</th>
+    <table class="table">
+        <thead class="thead-dark">
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">E-Mail</th>
+        <th scope="col">User</th>
+        <th scope="col">Author</th>
+        <th scope="col">Admin</th>
         <th></th>
         </thead>
         <tbody>
